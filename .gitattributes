@@ -1,0 +1,4 @@
+import this #запуск Дзен Пайтон
+import antigravity #кидает на сайт https://xkcd.com/353/ 
+import __hello__ #Выводит Хэлоу Ворлд
+from __future__ import braces #мем про отказ от скобок
