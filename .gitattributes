@@ -1,4 +1,19 @@
-import this #запуск Дзен Пайтон
-import antigravity #кидает на сайт https://xkcd.com/353/ 
-import __hello__ #Выводит Хэлоу Ворлд
-from __future__ import braces #мем про отказ от скобок
+side_a = int(input('напишите длинну стороны А'))
+side_b = int(input('напишите длинну стороны B'))
+side_c = int(input('напишите длинну стороны C'))
+
+perimetr = side_a+side_b+side_c
+
+if perimetr > 20:
+    print(max(side_a,side_b,side_c))
+
+if perimetr < 10:
+    print(min(side_a,side_b,side_c))
+
+if  side_a == 0:
+    print('таких трикутників немає.')
+if  side_b == 0:
+    print('таких трикутників немає.')
+if  side_c == 0:
+    print('таких трикутників немає.')
+
